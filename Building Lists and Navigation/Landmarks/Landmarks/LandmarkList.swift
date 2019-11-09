@@ -23,6 +23,10 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
   static var previews: some View {
-    LandmarkList()
+    ForEach(["iPhone SE", "iPhone 11 Pro"], id: \.self) { displayName in
+      LandmarkList()
+        .previewDevice(PreviewDevice(rawValue: displayName))
+        .previewDisplayName(displayName)
+    }
   }
 }
