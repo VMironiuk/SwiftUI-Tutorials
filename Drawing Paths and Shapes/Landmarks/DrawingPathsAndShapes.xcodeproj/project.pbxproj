@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8026C51723852AFC00B747CB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026C51623852AFC00B747CB /* Badge.swift */; };
+		8031DA0C238C230A00BAFCB5 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031DA0B238C230A00BAFCB5 /* RotatedBadgeSymbol.swift */; };
 		80F93F2E2387D6F600BB93C2 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F93F2D2387D6F600BB93C2 /* BadgeBackground.swift */; };
 		80F93F302387D80100BB93C2 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F93F2F2387D80100BB93C2 /* BadgeSymbol.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		8026C51623852AFC00B747CB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		8031DA0B238C230A00BAFCB5 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		80F93F2D2387D6F600BB93C2 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		80F93F2F2387D80100BB93C2 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		854575108545744000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				8026C51623852AFC00B747CB /* Badge.swift */,
 				80F93F2D2387D6F600BB93C2 /* BadgeBackground.swift */,
 				80F93F2F2387D80100BB93C2 /* BadgeSymbol.swift */,
+				8031DA0B238C230A00BAFCB5 /* RotatedBadgeSymbol.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
 				8026C51723852AFC00B747CB /* Badge.swift in Sources */,
+				8031DA0C238C230A00BAFCB5 /* RotatedBadgeSymbol.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B739487C229F1B6800C47603 /* MapView.swift in Sources */,
