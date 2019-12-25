@@ -23,7 +23,7 @@ struct ProfileHost: View {
         ProfileSummary(profile: self.drafrtProfile)
       }
       else {
-        Text("Profile Editor")
+        ProfileEditor(profile: $drafrtProfile)
       }
     }
     .padding()
